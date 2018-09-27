@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>知文</title>
+<link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
+<link rel="stylesheet" href="./css/smoothness/jquery.ui.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+<link rel="stylesheet" href="./css/style.css" type="text/css" />
+</head>
+<body>
+
+
+<div id="header">
+	<div class="header_main">
+		<h1>知文</h1>
+		<div class="header_search">
+			<input type="text" name="search" class="search"  value="搜索js, vue, react, php"/>
+			<div class='search_content'>
+				<p class='search_title'>
+					搜索结果...
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="main">
+	<div class="main_left">
+		<div id="tabs">
+		  <ul>
+		    <li><a href="#tabs-1">tab1</a></li>
+		    <li><a href="#tabs-2">tab2</a></li>
+		    <li><a href="#tabs-3">tab3</a></li>
+		  </ul>
+		  <div id="tabs-1">
+		    <p>tab-1</p>
+		  </div>
+		  <div id="tabs-2">
+		    <p>tab-2</p>
+		  </div>
+		  <div id="tabs-3">
+		    <p>tab-3</p>
+		  </div>
+		</div>
+		<div class="slider">
+					<div><img src="./img/0.jpg" /></div>
+					<div><img src="./img/1.jpg" /></div>
+					<div><img src="./img/2.png" /></div>
+					<div><img src="./img/3.jpg" /></div>
+		</div>
+	</div>
+	<div class="main_right">
+		<div id="accordion">
+			<h3>菜单1</h3>
+			<div><p>内容1</p><p>内容1</p></div>
+			<h3>菜单2</h3>
+			<div>内容2</div>
+			<h3>菜单3</h3>
+			<div>内容3</div>
+		</div>
+	</div>
+	<div class="main_content">
+		<div class="main_question"></div>
+		<div class="main_question_showmore">加载更多文章...</div>
+		<div class="to_top">回到顶部</div>
+	</div>
+</div>
+
+
+<div id="loading">数据交互中...</div>
+<div id="error">请登录后操作...</div>
+<div class='to_searched'>
+	<div class='searched_artical'></div>
+</div>
+
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/jquery.ui.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+</body>
+</html>
+
+</html>
